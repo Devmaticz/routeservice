@@ -6,7 +6,7 @@
         user_name: YOUR_USER,
         user_password: YOUR_PASSWORD,
         api_key: YOUR_API_KEY,
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       accessibility: {
         enabled: true,
@@ -14,21 +14,21 @@
         maximum_range_time: 3600,
         maximum_locations: 2,
         route_details_allowed: true,
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       matrix: {
         enabled: true,
         maximum_locations: 200,
         maximum_visited_nodes: 100000,
         allow_resolve_locations: true,
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       mapmatching: {
         enabled: true,
         maximum_locations: 100,
         maximum_search_radius: 200,
         maximum_visited_nodes: 10000,
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       isochrones: {
         enabled: true,
@@ -74,7 +74,7 @@
             }
           }
 
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       geocoding: {
         enabled: true,
@@ -83,7 +83,7 @@
         reverse_geocoding_url: "http://129.206.7.154:3100/v1/reverse",
         response_limit: 20,
         user_agent: openrouteservice.org,
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       locations: {
         enabled: true,
@@ -106,14 +106,14 @@
         maximum_search_radius_for_points: 50000,
         maximum_search_radius_for_linestrings: 2000,
         maximum_search_radius_for_polygons: 1000,
-        attribution: "openrouteservice.org, OpenStreetMap contributors"
+        attribution: "Augmented Telematics"
       }
       routing: {
         enabled: true,
         mode: "normal",
-        sources: ["openrouteservice-api-tests/data/heidelberg.osm.gz"],
+        sources: ["openrouteservice-api-tests/data/algeria-latest.osm.pbf"],
         init_threads: 1,
-        attribution: "openrouteservice.org, OpenStreetMap contributors, tmc - BASt",
+        attribution: "Augmented Telematics",
         distance_approximation: true,
         profiles: {
           active: ["vehicles-car", "vehicles-hgv", "bike", "bike-mtb", "bike-road", "bike-e", "pedestrian-walk", "pedestrian-hike", "wheelchair"],
