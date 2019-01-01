@@ -6,7 +6,7 @@
             "maximum_locations":200,
             "maximum_visited_nodes":100000,
             "allow_resolve_locations":true,
-            "attribution":"openrouteservice.org, OpenStreetMap contributors"
+            "attribution":"Augmented Telematics"
          },
          "isochrones":{
             "enabled":true,
@@ -33,7 +33,7 @@
             "maximum_intervals":10,
             "maximum_locations":2,
             "allow_compute_area":true,
-            "attribution":"openrouteservice.org, OpenStreetMap contributors"
+            "attribution":"Augmented Telematics"
          },
          "routing":{
             "enabled":true,
@@ -42,7 +42,7 @@
                "data/heidelberg.osm.gz"
             ],
             "init_threads":1,
-            "attribution":"openrouteservice.org, OpenStreetMap contributors",
+            "attribution":"Augmented Telematics",
             "distance_approximation":true,
             "profiles":{
                "active":[
