@@ -10,7 +10,7 @@ services:
     ors-core:
         container_name: ors-core
         ports:
-            - 8080:8080
+            - 7205:8080
         image: "tomcat:8-jre8"
         volumes:
             - ./build/:/usr/local/tomcat/webapps/
