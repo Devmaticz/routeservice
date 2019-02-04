@@ -39,7 +39,7 @@
             "enabled":true,
             "mode":"normal",
             "sources":[
-               "data/algerie-latest.osm.pbf"
+               "data/algeria-latest.osm.pbf"
             ],
             "init_threads":1,
             "attribution":"Augmented Telematics",
